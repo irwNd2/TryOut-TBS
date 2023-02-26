@@ -12,17 +12,22 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
      */
-    const data = require('../data/tryout.json').map((el) => {
+
+    const data = require('../data/province.json').map((el) => {
+      delete el.id;
+      delete el.alt_name;
+      delete el.latitude;
+      delete el.longitude;
       el.createdAt = new Date();
       el.updatedAt = new Date();
       return el;
     });
 
-    await queryInterface.bulkInsert('TryOuts', data);
+    await queryInterface.bulkInsert('Provinces', data);
   },
 
   async down(queryInterface, Sequelize) {
-    await queryInterface.bulkDelete('TryOuts', null, {});
+    await queryInterface.bulkDelete('Provinces', null, {});
     /**
      * Add commands to revert seed here.
      *
