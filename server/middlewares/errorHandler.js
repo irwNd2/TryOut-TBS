@@ -17,6 +17,12 @@ const errorHandler = (err, req, res, next) => {
   } else if (err.name === 'invalid_login') {
     status = 401;
     message = 'Invalid email or password';
+  } else if (err.name === 'not_found') {
+    status = 404;
+    message = 'User not found';
+  } else if (err.name === 'invalid_password') {
+    status = 401;
+    message = 'Invalid password';
   }
 
   res.status(status).json({ message });
