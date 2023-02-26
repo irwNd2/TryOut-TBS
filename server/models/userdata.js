@@ -1,7 +1,5 @@
 'use strict';
-const {
-  Model
-} = require('sequelize');
+const { Model } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
   class UserData extends Model {
     /**
@@ -11,22 +9,46 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      UserData.belongsTo(models.User, { foreignKey: 'UserId' });
+      UserData.belongsTo(models.Province, { foreignKey: 'ProvinceId' });
+      UserData.belongsTo(models.Kabupaten, { foreignKey: 'KabupatenId' });
     }
   }
-  UserData.init({
-    fullName: DataTypes.STRING,
-    address: DataTypes.STRING,
-    dateOfBirth: DataTypes.DATE,
-    phoneNumber: DataTypes.STRING,
-    profession: DataTypes.STRING,
-    latestEducation: DataTypes.STRING,
-    major: DataTypes.STRING,
-    ProvinceId: DataTypes.INTEGER,
-    KabupatenId: DataTypes.INTEGER,
-    UserId: DataTypes.INTEGER
-  }, {
-    sequelize,
-    modelName: 'UserData',
-  });
+  UserData.init(
+    {
+      fullName: DataTypes.STRING,
+      address: DataTypes.STRING,
+      dateOfBirth: DataTypes.DATE,
+      phoneNumber: DataTypes.STRING,
+      profession: DataTypes.STRING,
+      latestEducation: DataTypes.STRING,
+      major: DataTypes.STRING,
+      ProvinceId: {
+        type: DataTypes.INTEGER,
+        references: {
+          model: 'Provinces',
+          key: 'id',
+        },
+      },
+      KabupatenId: {
+        type: DataTypes.INTEGER,
+        references: {
+          model: 'Kabupatens',
+          key: 'id',
+        },
+      },
+      UserId: {
+        type: DataTypes.INTEGER,
+        references: {
+          model: 'Users',
+          key: 'id',
+        },
+      },
+    },
+    {
+      sequelize,
+      modelName: 'UserData',
+    },
+  );
   return UserData;
 };
