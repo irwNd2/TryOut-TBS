@@ -10,11 +10,13 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       Kabupaten.hasMany(models.UserData, { foreignKey: 'KabupatenId' });
+      Kabupaten.belongsTo(models.Province, { foreignKey: 'ProvinceId' });
     }
   }
   Kabupaten.init(
     {
       name: DataTypes.STRING,
+      ProvinceId: DataTypes.INTEGER,
     },
     {
       sequelize,
