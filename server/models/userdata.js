@@ -44,6 +44,8 @@ module.exports = (sequelize, DataTypes) => {
           key: 'id',
         },
       },
+      createdAt: DataTypes.DATE,
+      updatedAt: DataTypes.DATE,
     },
     {
       sequelize,
