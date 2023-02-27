@@ -2,36 +2,26 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('Results', {
+    await queryInterface.createTable('Quantitatives', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      totalGrade: {
-        type: Sequelize.INTEGER,
+      question: {
+        type: Sequelize.TEXT,
       },
-      verbalGrade: {
-        type: Sequelize.INTEGER,
+      answer: {
+        type: Sequelize.TEXT,
       },
-      quantitativeGrade: {
-        type: Sequelize.INTEGER,
-      },
-      problemSolvingGrade: {
-        type: Sequelize.INTEGER,
+      explanation: {
+        type: Sequelize.TEXT,
       },
       TryOutId: {
         type: Sequelize.INTEGER,
         references: {
           model: 'TryOuts',
-          key: 'id',
-        },
-      },
-      UserId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: 'Users',
           key: 'id',
         },
       },
@@ -46,6 +36,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('Results');
+    await queryInterface.dropTable('Quantitatives');
   },
 };
