@@ -18,6 +18,18 @@ module.exports = {
       explanation: {
         type: Sequelize.TEXT,
       },
+      optionA: {
+        type: Sequelize.TEXT,
+      },
+      optionB: {
+        type: Sequelize.TEXT,
+      },
+      optionC: {
+        type: Sequelize.TEXT,
+      },
+      optionD: {
+        type: Sequelize.TEXT,
+      },
       TryOutId: {
         type: Sequelize.INTEGER,
         references: {
