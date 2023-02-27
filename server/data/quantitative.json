@@ -1,0 +1,96 @@
+[
+    {
+        "question": "Jika 35% dari X adalah 42 dan 5/6 dari Y adalah 25. Nilai X + Y adalah ....",
+        "answer": "150",
+        "explanation": "https://i.ibb.co/DCvZLf7/quantitative1.png",
+        "optionA": "667",
+        "optionB": "90",
+        "optionC": "36",
+        "optionD": "125"
+    },
+    {
+        "question": "Jika 3x + 2y = 7 dan 4x - y = 2, maka nilai dari 5x adalah ....",
+        "answer": "5",
+        "explanation": "https://i.ibb.co/KbTKz00/quantitative2.png",
+        "optionA": "1",
+        "optionB": "2",
+        "optionC": "3",
+        "optionD": "4"
+    },
+    {
+        "question": "Della membeli gaun pesta seharga Rp. 156.000,00. Ia mendapat diskon sebesar 5%, berapa rupiah yang harus dibayar Della?",
+        "answer": "Rp.148.200,00",
+        "explanation": "https://i.ibb.co/7z7YXPk/quantitative3.png",
+        "optionA": "Rp.150.000,00",
+        "optionB": "Rp.146.700,00",
+        "optionC": "Rp.148.400,00",
+        "optionD": "Rp.148.000,00"
+    },
+    {
+        "question": "Jika perbandingan 2x - y terhadap x + y adalah 2/3, maka perbandingan x terhadap y adalah ....",
+        "answer": "5:4",
+        "explanation": "https://i.ibb.co/8dWTXd0/quantitative4.png",
+        "optionA": "1:5",
+        "optionB": "5:1",
+        "optionC": "4:5",
+        "optionD": "3:4"
+    },
+    {
+        "question": "Delapan orang relawan Aceh dapat mengevakuasi jenazah dalam empat hari. Jika proses evakuasi harus selesai dalam waktu satu hari, jumlah relawan yang harus ditambah adalah ....",
+        "answer": "24 orang",
+        "explanation": "https://i.ibb.co/ZmpFNB6/quantitative5.png",
+        "optionA": "26 orang",
+        "optionB": "28 orang",
+        "optionC": "30 orang",
+        "optionD": "32 orang"
+    },
+    {
+        "question": "Jika n/7 + n/5 = 12/35. Maka n sama dengan ....",
+        "answer": "1",
+        "explanation": "https://i.ibb.co/pLPYhtR/quantitative6.png",
+        "optionA": "35",
+        "optionB": "12",
+        "optionC": "6",
+        "optionD": "7"
+    },
+    {
+        "question": "90, 80, 60, 30, ..., ....",
+        "answer": "-10, -60",
+        "explanation": "Pola => -10, -20, -30, -40, -50",
+        "optionA": "30, -10",
+        "optionB": "70, 120",
+        "optionC": "20, 10",
+        "optionD": "60, 80"
+    },
+    {
+        "question": "56, 50, 300, 50, 56, 50, ....",
+        "answer": "300, 50",
+        "explanation": "Pola => -6,, x6, :6, +6, x6, :6",
+        "optionA": "40, 72",
+        "optionB": "56, 300",
+        "optionC": "50, 300",
+        "optionD": "72, 40"
+    },
+    {
+        "question": "1, 2, 4, 7, 8, 16, ..., ...",
+        "answer": "19, 20",
+        "explanation": "Pola => +1, x2, +3, +1, x2, +3, +1",
+        "optionA": "32, 33",
+        "optionB": "13, 18",
+        "optionC": "13, 21",
+        "optionD": "21, 26"
+    },
+    {
+        "question": "27, 3, 6, 2, 4, 4, 8, ..., ....",
+        "answer": "24, 48",
+        "explanation": "Pola => :9, x2, :3, x2, :1, x2, :1/3, x2",
+        "optionA": "24, 2",
+        "optionB": "16, 4",
+        "optionC": "10, 6",
+        "optionD": "16, 64"
+    },
+    {
+        "question": "4, 12, ..., 28, ..., 58", 
+        "answer": ""
+    }
+]
