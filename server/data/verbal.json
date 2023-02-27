@@ -1,0 +1,209 @@
+[
+    {
+        "question": "Bonanza : Sumber kesenangan = .... : .... ?",
+        "answer": "Somasi : Teguran tertulis",
+        "explanation": "Sinonim bonanza adalah sumber kesenangan. Sinonim somasi adalah teguran tertulis. Bonanza = sumber kesenangan, sumber kebahagiaan, sumber keuntungan.",
+        "optionA": "Agora : Gelanggang",
+        "optionB": "Sais : Gerobak",
+        "optionC": "Abstraktif : Sederhana",
+        "optionD": "Perlente : Saling melengkapi"
+    },
+    {
+        "question": "Cuai : Berharga = ..... : ..... ?",
+        "answer": ". Esoterik : Generalis",
+        "explanation": "Antonim cuai adaLah berharga. Antonim esoterik adalah Generalis. Cuai = kecil, nista, hina, remeh. Cuai >< Berharga. Esoterik = secara khusus, rahasia, terbatas. Esoterik >< Generalis atau secara umum",
+        "optionA": " Prawacana : Kata pengantar",
+        "optionB": "Kebat : Balut",
+        "optionC": "Yuana : Kakak",
+        "optionD": "Oja : Berani"
+    },
+    {
+        "question": "Bunga : Riba = .... : .... ?",
+        "answer": "Hemat : Kikir",
+        "explanation": "Bunga tidak berarti riba. Hemat tidak berarti kikir",
+        "optionA": "Akrab : Sengit",
+        "optionB": "Mawar : Hutang",
+        "optionC": "Khawatir : Bangkrut",
+        "optionD": "Hasrat : Extravaganza"
+    },
+    {
+        "question": "Watak : Tempramen = Sikap : ..... ?",
+        "answer": "Tindakan",
+        "explanation": "Watak salah satu jenisnya adalah tempramen. Sikap salah satu jenisnya adalah tindakan",
+        "optionA": "Aktivitas",
+        "optionB": "Kelakuan",
+        "optionC": "Tingkah laku",
+        "optionD": "Kegiatan"
+    },
+    {
+        "question": "Humor : Komedia = ..... : .... ?",
+        "answer": "Heroisme : Epik",
+        "explanation": "Humor dihasilkan dari komedian. Heroisme dihasilkan dari epik.",
+        "optionA": "Memori : Amnesia",
+        "optionB": "Klimaks : Drama",
+        "optionC": "Perceraian : Pernikahan",
+        "optionD": "Sintaksis : Kata"
+    },
+    {
+        "question": ".... : Tulang = Gedung : .... ?",
+        "answer": "Tubuh : Rangka",
+        "explanation": "Jenis padanan hubungan: Asosiasi. Tubuh disangga oleh tulang. Gedung disangga oleh rangka.",
+        "optionA": "Kereta : Roda",
+        "optionB": "Belulang : Tembok",
+        "optionC": "Tua : Kota",
+        "optionD": "Kurus : Kokoh"
+    },
+    {
+        "question": "November : Agustus = Mei : .... ?",
+        "answer": "Februari",
+        "explanation": "Beda jaraknya 3 bulan. November adalah bulan ke 11. Agustus adalah bulan ke 8. Mei adalah bulan ke 5. Februari adalah bulan ke 2.",
+        "optionA": "Januari",
+        "optionB": "Maret",
+        "optionC": "April",
+        "optionD": "Juni"
+    },
+    {
+        "question": "Prominen : Tidak dikenal = .... : .... ?",
+        "answer": "Gegai : Kuat",
+        "explanation": "Antonim. Prominen adalah orang yang menonjol. Gegai berarti mudah lepas atau tidak kuat.",
+        "optionA": "Friksi : Perpecahan",
+        "optionB": "Kerapu : Kepala",
+        "optionC": "Islah : Damai",
+        "optionD": "Inheren : Melekat"
+    },
+    {
+        "question": ".... : Penerbitan = Kampanye : .... ?",
+        "answer": "Penyuntingan : Pemilihan",
+        "explanation": "Padanan sebab akibat. Penyuntingan untuk penerbitan. Kampanye untuk pemilihan.",
+        "optionA": "Pengumuman : Penyampaian",
+        "optionB": "Percetakan : Perwakilan",
+        "optionC": "Pemeriksaan : Pencoblosan",
+        "optionD": "Penulis : Pemeriksaan"
+    },
+    {
+        "question": "Kambing : Gulai : Hipertensi = .... : .... : .... ?",
+        "answer": "Tembakau : Rokok : Darah Tinggi",
+        "explanation": "Padanan sebab akibat. Kambing yang dimasak menjadi gulai dapat menyebabkan hipertensi. Tembakau yang diolah menjadi rokok dapat menyebabkan darah tinggi.",
+        "optionA": "Kopi : Kafein : Kolesterol",
+        "optionB": "Lemak : Kolesterol : Hipertensi",
+        "optionC": "Benang : Pintal : Pakaian",
+        "optionD": "Terigu : Kue : Makan"
+    },
+    {
+        "question": "Pseudonim = .... ?",
+        "answer": "Alias",
+        "explanation": "Pseudonim adalah nama samaran. Alias adalah nama samaran.",
+        "optionA": "Kata sifat",
+        "optionB": "Padanan kata",
+        "optionC": "Nama asli",
+        "optionD": "Kata benda"
+    },
+    {
+        "question": "Pancing : Ikan = Bedil : .... ?",
+        "answer": "Buruan",
+        "explanation": "Jenis padanan hubungan: Asosiasi. Pancing digunakan untuk menangkap ikan. Bedil digunakan untuk menangkap buruan.",
+        "optionA": "Kuda",
+        "optionB": "Peluru",
+        "optionC": "Pelatuk",
+        "optionD": "Umpan"
+    },
+    {
+        "question": "Alfin, Bertha, Cika, Delfi, dan Elma akan mempresentasikan tugas mereka. Elma mendapat giliran sebelum yang terakhir. Cika bukanlah yang pertama dan Delfi tampil tepat setelahnya. Bertha menampilkan tugasnya lebih awal dari Delfi. Siapakah yang berada pada urutan paling akhir?",
+        "answer": "Alfin",
+        "explanation": "urutannya adalah Elma, Cika, Bertha, Delfi, Alfin",
+        "optionA": "Delfi",
+        "optionB": "Bertha",
+        "optionC": "Cika",
+        "optionD": "Semua salah"
+    },
+    {
+        "question": "Suatu hari di depan Commpark Kota Wisata terjadi tabrakan. Setelah diinvestigasi, Polisi menemukan fakta bahwa kecelakaan terjadi anatara Bus, Motor, Sedan, Taksi dan Angkot dengan pengakuan bahwa Motor ditabrak oleh sedan juga ditabrak dari belakang oleh angkot. Taksi ditabrak dari belakang dan menabrak angkot yang ada di depannya. Siapakah yang menabrak paling dahulu?",
+        "answer": "Bus",
+        "explanation": "Bus menabrak motor, motor menabrak sedan, sedan menabrak angkot, angkot menabrak taksi, taksi menabrak angkot",
+        "optionA": "Motor",
+        "optionB": "Sedan",
+        "optionC": "Angkot",
+        "optionD": "Taksi"
+    },
+    {
+        "question": "Carlos, Steven, Komang, Erik, Semi, Dento, Roni dan Idin sedang duduk makan bersama di sebuah warung yang menjual jagung bose dan jagung katemak.  Mereka menduduki salah satu meja berbentuk persegi, sehingga tiap sisi ditempati oleh dua orang. Tiga orang dari mereka memesan jagung katemak dan tidak duduk bersebelahan. Carlos memesan jagung bose dan duduk berhadapan dengan Roni yang memesan jagung katemak. Erik dan semi duduk diantara Komang dan Roni. Steven duduk diantara Komang dan Carlos. Dento memesan jagung katemak begitu pula dengan yang di depan Dento. Jika Idin bersebelahan dengan Dento, siapa saja yang memiliki pesanan yang sama dengan Idin?",
+        "answer": "Steven, Semi, Erik",
+        "explanation": "Steven, Semi, Erik",
+        "optionA": "Komang, Erik, Steven",
+        "optionB": "Carlos, Roni, Dento",
+        "optionC": "Semi, Erik, Komang",
+        "optionD": "Steven, Dento, Idin"
+    },
+    {
+        "question": "Terdapat 4 orang teman dengan perbedaan kesukaan terhadap 3 idola yaitu Brian, NIKI dan JOJI. Tidak ada idola yang tidak Michele sukai sukai. Nini hanya suka NIKI, Odila suka semua kecuali NIKI, dan Sian hanya suka JOJI. Jika Michele ingin mengajak temannya menonton konser JOJI, siapakah yang akan menolak?",
+        "answer": "Nini",
+        "explanation": "Nini hanya suka NIKI",
+        "optionA": "Odila",
+        "optionB": "Sian",
+        "optionC": "Michele",
+        "optionD": "Brian"
+    },
+    {
+        "question": "Fahri menyukai komik dan novel sedangkan Micky lebih menyukai sejarah tokoh ilmuwan. Markus membeli segala macam novel dan buku pengetahuan umum. Ishak penggemar biografi sedangkan Sonia menyukai buku-buku yang bukan fiksi. Jika dibuat kelompok membaca dengan 3 anggota berdasarkan minat bahan bacaan mereka maka kelompok yang mungkin terbentuk adalah .... ?",
+        "answer": "Markus, Micky, Ishak",
+        "explanation": "Markus membeli segala macam novel dan buku pengetahuan umum. Micky lebih menyukai sejarah tokoh ilmuwan. Ishak penggemar biografi. Kelompok yang mungkin terbentuk adalah Markus, Micky, Ishak yang menyukai buku non fiksi",
+        "optionA": "Fahri, Micky, Sonia",
+        "optionB": "Markus, Micky, Ishak",
+        "optionC": "Ishak, Sonia, Fahri",
+        "optionD": "Sonia, Markus, Fahri"
+    },
+    {
+        "question": "Semua siswa gemar Bahasa Indonesia dan siswa yang gemar Bahasa Indonesia gemar Sejarah. Siswa yang gemar Sejarah tidak gemar Bahasa Inggris.",
+        "answer": "Siswa yang tidak gemar Bahasa Inggris, gemar Bahasa Indonesia.",
+        "explanation": "Rumus Silogisme, buang kalimat yang diulang dua kali, yakni gemar sejarah. Jadi jawabnya jika p maka r, boleh juga jika r maka p. Jadi jawabannya Siswa yang tidak gemar Bahasa Inggris, gemar Sejarah",
+        "optionA": "Siswa yang gemar Bahasa Inggris, gemar Bahasa Indonesia.",
+        "optionB": "Siswa yang tidak gemar Bahasa Inggris, gemar Sejarah.",
+        "optionC": "Siswa yang tidak gemar Sejarah, gemar Bahasa Indonesia.",
+        "optionD": "Siswa yang gemar Bahasa Inggris, tidak gemar Bahasa Indonesia."
+    },
+    {
+        "question": "Jika hari ini cuaca mendung maka Dinda tidak pergi ke Pantai. Dinda pergi ke pantai atau ia naik gunung. Dinda tidak naik gunung. Kesimpulannya adalah ....",
+        "answer": "Cuaca hari ini tidak mendung",
+        "explanation": "https://prnt.sc/Lx_QDOZ3hWOb",
+        "optionA": "Cuaca hari mendung",
+        "optionB": "Hari ini cuaca mendung dan Dinda pergi ke pantai",
+        "optionC": "Dinda tidak pergi ke pantai",
+        "optionD": "Hari ini cuaca tidak mendung dan Dinda tidak pergi ke pantai"
+    },
+    {
+        "question": "Menulis novel adalah aktifitas Fafa pada hari Sabtu. Hari Sabtu ini Fafa banyak tugas.",
+        "answer": "Hari Sabtu ini Fafa pergi menulis novel walaupun banyak tugas.",
+        "explanation": "Menggunakan logika, karena sudah dinyatakan premis sebelumnya, Hari Sabtu ini Fafa pergi menulis novel walaupun banyak tugas",
+        "optionA": "Hari Sabtu Fafa tidak menulis novel.",
+        "optionB": "Hari Sabtu, Fafa ragu untuk menulis novel.",
+        "optionC": "Fafa menulis novel pada hari selain Sabtu.",
+        "optionD": "Fafa tidak menulis novel jika banyak tugas."
+    },
+    {
+        "question": "Semua kertas gambar sangat berguna. Sebagian kertas yang sangat berguna harganya murah. Maka ....",
+        "answer": "Sebagian kertas harganya murah.",
+        "explanation": "Menggunakan silogisme, buang kalimat yang diulang yakni sangat berguna, gunakan kuantor eksistensial, maka yang benar Sebagian kertas harganya murah.",
+        "optionA": "Semua kertas gambar harganya murah.",
+        "optionB": "Semua kertas yang harganya murah adalah kertas gambar.",
+        "optionC": "Kertas yang murah sangat berguna.",
+        "optionD": "Semua kertas yang sangat berguna adalah kertas gambar."
+    },
+    {
+        "question": "Semua siswa ujian masuk universitas ingin diterima di kampus terbaik . Muna tidak ingin diterima di kampus terbaik. Kesimpulan yang tepat adalah ....",
+        "answer": "Muna bukan peserta ujian masuk universitas.",
+        "explanation": "Rumus Modus Tolens, jawabannya negasi p yakni Muna bukan peserta ujian masuk universitas.",
+        "optionA": "Muna ingin diterima di kampus selain terbaik.",
+        "optionB": "Muna tidak ingin lulus ujian masuk universitas.",
+        "optionC": "Muna adalah peserta ujian masuk universitas.",
+        "optionD": "Muna peserta ujian masuk universitas yang tidak ingin diterima di kampus terbaik"
+    },
+    {
+        "question": "Beberapa benda yang menyublim adalah kapur barus. Semua kapur barus adalah benda padat. Jadi ....",
+        "answer": "Beberapa benda padat dapat menyublim",
+        "explanation": "Kata yang diulang dihapus yakni kapur barus. Maka jawabannya Beberapa benda padat dapat menyublim",
+        "optionA": "Hanya kapur barus yang menyublim merupakan benda padat.",
+        "optionB": "Benda yang bukan kapur barus tidak menyublim",
+        "optionC": "kapur barus dapat menyublim",
+        "optionD": "kapur barus tidak dapat menyublim"
+    }
+]
