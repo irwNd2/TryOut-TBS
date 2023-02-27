@@ -91,6 +91,29 @@
     },
     {
         "question": "4, 12, ..., 28, ..., 58", 
-        "answer": ""
+        "answer": "24, 56",
+        "explanation": "Pola => +8, x2, +4, x2, +2",
+        "optionA": "20, 60",
+        "optionB": "24, 58",
+        "optionC": "36, 84",
+        "optionD": "36, 56"
+    },
+    {
+        "question": "0, 1, 5, 14, ..., ...",
+        "answer": "30, 55",
+        "explanation": "Pola => +1, +4, +9, +16, +25 atau +3, +5, +7, +9",
+        "optionA": "30, 60",
+        "optionB": "23, 23",
+        "optionC": "70, 86",
+        "optionD": "28, 37"
+    },
+    {
+        "question": "14, 28, 16, 32, ..., ...",
+        "answer": "32, 288",
+        "explanation": "Pola => +14, -12, +16, -0, +256 atau -2, +4, -16, +256 (pangkat)",
+        "optionA": "92, 80",
+        "optionB": "32, 256",
+        "optionC": "81, 121",
+        "optionD": "144, 256"
     }
 ]
