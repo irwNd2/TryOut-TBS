@@ -43,5 +43,53 @@
     "optionB": "Proses pengolahan",
     "optionC": "Wilayah budidaya",
     "optionD": "Varietas pohon"
+  },
+  {
+    "question": "<p>Berikut adalah jumlah pelamar kerja di dua perusahaan setelah Disnaker kota Jiyipiri mengadakan <em>Job Fair</em> tahun ini.</p> <p style='text-align: center;'><img src='https://i.ibb.co/4jg7BZL/problem-solving1.png' width='474' height='168'></p> <p>Pernyataan yang sesuai dengan tabel di atas adalah ....</p>",
+    "answer": "Secara umum, jumlah pelamar PT Miyiri Grip sebanyak 3x pelamar PT Itsiki",
+    "explanation": "<p>a. <em>Not Given</em> = informasi tidak diberikan</p> <p>c. sama persis berarti harus benar2 sama, sedangkan di tabel hanya &quot;relatif sama&quot;</p> <p>b. kontradiktif, seharusnya PT Miyiri Grip</p> <p>d. secara umum = kurang lebih benar</p>",
+    "optionA": "Lulusan ilmu hukum tidak suka melamar kerja di perusahaan",
+    "optionB": "PT Itsiki adalah yang paling diminati oleh lulusan Teknik Industri",
+    "optionC": "Jumlah pelamar dari lulusan Ilmu Hukum dan Ilmu Komunikasi di kedua perusahaan sama persis",
+    "optionD": "Tidak ada yang benar"
+  },
+  {
+    "question": "<p>Pemeringkatan beberapa kampus berdasarkan data dari <em>QS World Ranking</em> di bidang hukum adalah sebagai berikut</p> <p style='text-align: center;'><img src='https://i.ibb.co/HrxJxwT/problem-solving2.png' width='474' height='240'></p> <p>Pernyataan yang sesuai dengan diagram di atas adalah ...</p>",
+    "answer": "Perubahan kualitas dari Leiden University adalah yang paling tidak signifikan",
+    "explanation": "<p>a. 2020-2021 turun, 2021-2023 yg 3 naik, 2 turun</p> <p>c. selevel itu apa? tapi kalo angkanya beda semua, jelas nggak sama</p> <p>b. stabil dari mana? semuanya turun di 2021</p> <p>d. tidak signifikan = kecil sekali. Bener nih</p>",
+    "optionA": "Setiap tahun, seluruh kampus mengalami peningkatan kualitas",
+    "optionB": "Tahun 2021 adalah tahun yang paling stabil",
+    "optionC": "University of Edinburgh selevel dengan Leiden University",
+    "optionD": "Tidak ada yang benar"
+  },
+  {
+    "question" : "<p>SMK Tadika Mesra mengadakan evaluasi internal dan pemilihan guru favorit dengan hasil sebagai berikut</p> <p style='text-align: center;'><img src='https://i.ibb.co/KhK3LP2/problem-solving3.png' width='574' height='200'></p> <p>Hubungan antara performa dan penilaian guru favorit yang benar adalah ...</p>",
+    "answer": "Kreatifitas adalah faktor paling menentukan dalam penilaian guru favorit",
+    "explanation": "<p>a. bener, bu Manar +20 di kreatif, -30 di periang, tapi dia tetep jadi juara.</p> <p>c. soalnya nanya hubungan, bukan simpulan</p> <p>b. lihat Bu Endang-Pak Rendi, sama2 kreatif dan periang, tp satunya suka ngasih PR</p> <p>d. soalnya nanya hubungan, bukan simpulan</p>",
+    "optionA": "Pak Sobar adalah guru yang paling tidak disukai murid karena kurang kreatif",
+    "optionB": "Jumlah tugas dan PR yang diberikan tidak berpengaruh apa-apa",
+    "optionC": "Guru paling periang adalah Bu Endang",
+    "optionD": "Tidak ada yang benar"
+  },
+  {
+    "question": "<p>Pernyataan yang benar berdasarkan tabel persentase respon positif terhadap kata yang digunakan untuk menumbuhkan nasionalisme di bawah ini adalah ...</p> <p style='text-align: center;'><img src='https://i.ibb.co/dtZW9sc/problem-solving5.png' width='474' height='200'></p>",
+    "answer": "Merdeka merupakan kalimat multitafsir yang bisa bermakna positif maupun negatif terhadap nasionalisme",
+    "explanation": "<p>a) bukan yang paling, tapi yang kedua</p> <p>c) ini cuma ttg kata2, nggak diterangin sama sekali tentang penyebaran rasa nasionalisme</p> <p>b) bener, karena di Jawa kata merdeka menimbulkan respon positif yang tinggi, tp di Maluku dan Papua kebalikannya</p> <p>d) pertanyaannya apa, jawabannya apa</p>",
+    "optionA": "Dirgahayu merupakan kata paling lumrah untuk menumbuhkan nasionalisme",
+    "optionB": "Rasa nasionalisme penduduk di Indonesia masih belum merata di berbagai wilayah",
+    "optionC": "Indonesia adalah negara sah yang memperoleh kemerdekaannya pada 17 Agustus 1945",
+    "optionD": "Tidak ada yang benar"
+  },
+  {
+    "question": "<p>Dari diagam persentase kata panggilan terhadap pasangan di 3 wilayah di Indonesia, 2 kata panggilan paling pasaran adalah ...</p> <p style='text-align: center;'><img src='https://i.ibb.co/vL6fLH7/problem-solving6.png' width='520' height='320'></p>",
+    "answer": "'ayang' di Sumatra dan 'sayang' di Jawa",
+    "explanation": "<p>a. dua2nya hampir sama banyaknya, tp tetep kalah dibanding &quot;sayang&quot; di Jawa</p> <p>c. &quot;yang&quot; di Jawa sama &quot;ayang&quot; di Sumatra sama-sama masih kalah dari &quot;sayang&quot; di Jawa</p> <p>b. &quot;sayang&quot; di Jawa (30-an) yang paling banyak, disusul &quot;ayang&quot; di Sumatra (20-an - 50-an)</p> <p>d. Gak nyambung</p>",
+    "optionA": "'yang' di Jawa dan Papua",
+    "optionB": "'yang' di Jawa dan 'ayang' di Sumatra",
+    "optionC": "Tergantung mood pasangan masing-masing",
+    "optionD":"Tidak ada yang benar"
+  },
+  {
+    "question": ""
   }
 ]
