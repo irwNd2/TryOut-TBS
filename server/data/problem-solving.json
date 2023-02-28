@@ -36,15 +36,6 @@
     "optionD": "Tidak ada yang benar"
   },
   {
-    "question": "<p>Kopi adalah jenis minuman yang penting bagi sebagian besar masyarakat di seluruh dunia. Kopi yang dijual biasanya adalah kombinasi dari biji yang dipanggang dari dua varietas pohon kopi, arabika dan robusta.&nbsp;</p> <p>Biji arabika, lebih mahal di pasar dunia karena memiliki rasa yang lebih ringan dan memiliki kandungan kafein 70% lebih rendah dibandingkan dengan biji robusta. Negara-negara yang mendominasi produksi kopi dunia berada di wilayah Amerika Selatan, Afrika, dan Asia Tenggara. Indonesia adalah salah satu negara produsen dan eksportir kopi paling besar di dunia.&nbsp;</p> <p>Kopi adalah penghasil devisa terbesar keempat untuk Indonesia setelah minyak sawit, karet, dan kakao. Pada saat ini, perkebunan kopi Indonesia mencakup total wilayah kira-kira 1,24 juta hektar, 933 hektar perkebunan robusta dan 307 hektar perkebunan arabika. Indonesia juga memproduksi beberapa kopi spesial.&nbsp;</p> <p>Yang paling terkenal di antara kopi-kopi spesial ini adalah kopi luwak, kopi toraja, kopi gayo, dan kopi mandailing. Ekspor kopi olahan hanyalah bagian kecil dari total ekspor kopi Indonesia. Berlawanan dengan pesaing seperti Vietnam, Indonesia tidak memiliki perkebunan kopi yang besar dan oleh karena itu menemukan lebih banyak kesulitan untuk menjaga volume produksi dan kualitas yang stabil, sehingga daya saing kopi Indonesia di pasar internasional kurang kuat.</p> <p>Total ekspor kopi delapan tahun terakhir cenderung mengalami fluktuasi. Pada tahun 2010 total volume ekspor mencapai 433,6 ribu ton meningkat menjadi 467,8 ribu ton pada tahun 2017. Menurut data dari Asosiasi Eksportir Kopi Indonesia (AEKI), para petani Indonesia bersama dengan kementerian-kementerian terkait berencana untuk memperluas perkebunan-perkebunan kopi Indonesia, sambil meremajakan perkebunan-perkebunan lama melalui program intensifikasi.&nbsp;</p> <p>Dengan meningkatkan luas perkebunan, produksi kopi Indonesia dalam 10 tahun ke depan ditargetkan untuk mencapai antara 900 ribu ton sampai 1,2 juta ton per tahun. Produksi kopi Indonesia sebagian besar diekspor ke mancanegara dan sisanya dipasarkan di dalam negeri. Ekspor Kopi alam Indonesia menjangkau lima benua yaitu Asia, Afrika, Australia, Amerika, dan Eropa dengan pangsa utama di Eropa.</p> <p><br></p> <p>Berdasarkan paragraf 1, biji arabika lebih mahal di pasar dunia dibandingkan dengan biji robusta, perbedaan kedua varietas ini terutama terletak pada ...</p> ",
-    "answer": "Rasa dan tingkat kafein",
-    "explanation": "Biji arabika, lebih mahal di pasar dunia karena memiliki rasa yang lebih ringan dan memiliki kandungan kafein 70% lebih rendah dibandingkan dengan biji robusta. ",
-    "optionA": "Rasa",
-    "optionB": "Proses pengolahan",
-    "optionC": "Wilayah budidaya",
-    "optionD": "Varietas pohon"
-  },
-  {
     "question": "<p>Berikut adalah jumlah pelamar kerja di dua perusahaan setelah Disnaker kota Jiyipiri mengadakan <em>Job Fair</em> tahun ini.</p> <p style='text-align: center;'><img src='https://i.ibb.co/4jg7BZL/problem-solving1.png' width='474' height='168'></p> <p>Pernyataan yang sesuai dengan tabel di atas adalah ....</p>",
     "answer": "Secara umum, jumlah pelamar PT Miyiri Grip sebanyak 3x pelamar PT Itsiki",
     "explanation": "<p>a. <em>Not Given</em> = informasi tidak diberikan</p> <p>c. sama persis berarti harus benar2 sama, sedangkan di tabel hanya &quot;relatif sama&quot;</p> <p>b. kontradiktif, seharusnya PT Miyiri Grip</p> <p>d. secara umum = kurang lebih benar</p>",
@@ -63,7 +54,7 @@
     "optionD": "Tidak ada yang benar"
   },
   {
-    "question" : "<p>SMK Tadika Mesra mengadakan evaluasi internal dan pemilihan guru favorit dengan hasil sebagai berikut</p> <p style='text-align: center;'><img src='https://i.ibb.co/KhK3LP2/problem-solving3.png' width='574' height='200'></p> <p>Hubungan antara performa dan penilaian guru favorit yang benar adalah ...</p>",
+    "question": "<p>SMK Tadika Mesra mengadakan evaluasi internal dan pemilihan guru favorit dengan hasil sebagai berikut</p> <p style='text-align: center;'><img src='https://i.ibb.co/KhK3LP2/problem-solving3.png' width='574' height='200'></p> <p>Hubungan antara performa dan penilaian guru favorit yang benar adalah ...</p>",
     "answer": "Kreatifitas adalah faktor paling menentukan dalam penilaian guru favorit",
     "explanation": "<p>a. bener, bu Manar +20 di kreatif, -30 di periang, tapi dia tetep jadi juara.</p> <p>c. soalnya nanya hubungan, bukan simpulan</p> <p>b. lihat Bu Endang-Pak Rendi, sama2 kreatif dan periang, tp satunya suka ngasih PR</p> <p>d. soalnya nanya hubungan, bukan simpulan</p>",
     "optionA": "Pak Sobar adalah guru yang paling tidak disukai murid karena kurang kreatif",
@@ -87,9 +78,24 @@
     "optionA": "'yang' di Jawa dan Papua",
     "optionB": "'yang' di Jawa dan 'ayang' di Sumatra",
     "optionC": "Tergantung mood pasangan masing-masing",
-    "optionD":"Tidak ada yang benar"
+    "optionD": "Tidak ada yang benar"
   },
   {
-    "question": ""
+    "question": "<p>Kopi adalah jenis minuman yang penting bagi sebagian besar masyarakat di seluruh dunia. Kopi yang dijual biasanya adalah kombinasi dari biji yang dipanggang dari dua varietas pohon kopi, arabika dan robusta.&nbsp;</p> <p>Biji arabika, lebih mahal di pasar dunia karena memiliki rasa yang lebih ringan dan memiliki kandungan kafein 70% lebih rendah dibandingkan dengan biji robusta. Negara-negara yang mendominasi produksi kopi dunia berada di wilayah Amerika Selatan, Afrika, dan Asia Tenggara. Indonesia adalah salah satu negara produsen dan eksportir kopi paling besar di dunia.&nbsp;</p> <p>Kopi adalah penghasil devisa terbesar keempat untuk Indonesia setelah minyak sawit, karet, dan kakao. Pada saat ini, perkebunan kopi Indonesia mencakup total wilayah kira-kira 1,24 juta hektar, 933 hektar perkebunan robusta dan 307 hektar perkebunan arabika. Indonesia juga memproduksi beberapa kopi spesial.&nbsp;</p> <p>Yang paling terkenal di antara kopi-kopi spesial ini adalah kopi luwak, kopi toraja, kopi gayo, dan kopi mandailing. Ekspor kopi olahan hanyalah bagian kecil dari total ekspor kopi Indonesia. Berlawanan dengan pesaing seperti Vietnam, Indonesia tidak memiliki perkebunan kopi yang besar dan oleh karena itu menemukan lebih banyak kesulitan untuk menjaga volume produksi dan kualitas yang stabil, sehingga daya saing kopi Indonesia di pasar internasional kurang kuat.</p> <p>Total ekspor kopi delapan tahun terakhir cenderung mengalami fluktuasi. Pada tahun 2010 total volume ekspor mencapai 433,6 ribu ton meningkat menjadi 467,8 ribu ton pada tahun 2017. Menurut data dari Asosiasi Eksportir Kopi Indonesia (AEKI), para petani Indonesia bersama dengan kementerian-kementerian terkait berencana untuk memperluas perkebunan-perkebunan kopi Indonesia, sambil meremajakan perkebunan-perkebunan lama melalui program intensifikasi.&nbsp;</p> <p>Dengan meningkatkan luas perkebunan, produksi kopi Indonesia dalam 10 tahun ke depan ditargetkan untuk mencapai antara 900 ribu ton sampai 1,2 juta ton per tahun. Produksi kopi Indonesia sebagian besar diekspor ke mancanegara dan sisanya dipasarkan di dalam negeri. Ekspor Kopi alam Indonesia menjangkau lima benua yaitu Asia, Afrika, Australia, Amerika, dan Eropa dengan pangsa utama di Eropa.</p> <p><br></p> <p>Berdasarkan paragraf 1, biji arabika lebih mahal di pasar dunia dibandingkan dengan biji robusta, perbedaan kedua varietas ini terutama terletak pada ...</p> ",
+    "answer": "Rasa dan tingkat kafein",
+    "explanation": "Biji arabika, lebih mahal di pasar dunia karena memiliki rasa yang lebih ringan dan memiliki kandungan kafein 70% lebih rendah dibandingkan dengan biji robusta. ",
+    "optionA": "Rasa",
+    "optionB": "Proses pengolahan",
+    "optionC": "Wilayah budidaya",
+    "optionD": "Varietas pohon"
+  },
+  {
+    "question": "<p>Berdasarkan paragraf ke-2, manakah pernyataan di bawah ini yang&nbsp;<strong>tidak benar</strong>?</p>",
+    "answer": "Vietnam adalah salah satu negara produsen dan eksportir kopi paling besar di dunia setelah Indonesia.",
+    "explanation": "<p>Berlawanan dengan pesaing seperti Vietnam, Indonesia tidak memiliki perkebunan kopi yang besar dan oleh karena itu menemukan lebih banyak kesulitan untuk menjaga volume produksi dan kualitas yang stabil, sehingga daya saing kopi Indonesia di pasar internasional kurang kuat.</p> <p>Kata berlawanan menunjukkan keadaan yang berbeda. Jadi, dapat disimpulkan bahwa volume produksi dan kualitas kopi Vietnam lebih besar dan stabil dibandingkan Indonesia.</p> <p>Jadi jawaban yang benar adalah <strong>E.</strong></p>",
+    "optionA": "Minyak sawit, karet, dan kakao merupakan komoditas yang menghasilkan devisa lebih besar dibanding kopi",
+    "optionB": "Perkebunan kopi yang relatif kecil menjadi penyebab daya saing kopi Indonesia di pasar internasional kurang kuat.",
+    "optionC": "Sebagian besar hasil produksi biji kopi Indonesia adalah varietas robusta",
+    "optionD": "Vietnam memiliki perkebunan kopi yang lebih besar dibandingkan Indonesia"
   }
 ]
