@@ -23,6 +23,12 @@ const errorHandler = (err, req, res, next) => {
   } else if (err.name === 'invalid_password') {
     status = 401;
     message = 'Invalid password';
+  } else if (err.name === 'duplicate_email') {
+    status = 400;
+    message = 'Email already registered';
+  } else if (err.name === 'forbidden') {
+    status = 403;
+    message = 'Forbidden';
   }
 
   res.status(status).json({ message });

@@ -5,16 +5,22 @@ const { generateToken } = require('../helpers/jwt');
 class UserController {
   static async register(req, res, next) {
     try {
-      const { email, password, confirmed_password } = req.body;
+      const { fullName, email, password, confirmed_password } = req.body;
+      const existingUser = await User.findOne({ where: { email } });
+      if (existingUser) {
+        throw { name: 'duplicate_email' };
+      }
       if (!email || !password || !confirmed_password) {
         throw { name: 'bad_request' };
       }
       if (password !== confirmed_password) {
         throw { name: 'bad_request' };
       }
-      const user = await User.create({ email, password });
+      const user = await User.create({ fullName, email, password });
 
-      res.status(201).json({ id: user.id, email: user.email });
+      res
+        .status(201)
+        .json({ id: user.id, email: user.email, name: user.fullName });
     } catch (err) {
       next(err);
     }
@@ -34,8 +40,13 @@ class UserController {
       if (!isValid) {
         throw { name: 'invalid_login' };
       }
-      const access_token = generateToken({ id: user.id, email: user.email });
-      res.status(200).json({ access_token });
+      const access_token = generateToken({
+        id: user.id,
+        email: user.email,
+      });
+      res
+        .status(200)
+        .json({ access_token, email: user.email, name: user.fullName });
     } catch (err) {
       next(err);
     }
