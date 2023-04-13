@@ -159,6 +159,7 @@ class UserController {
   static async updatePhoto(req, res, next) {
     try {
       const user = await UserData.findOne({ where: { UserId: req.user.id } });
+      console.log(req.file);
       if (!user) {
         await UserData.create({
           UserId: req.user.id,

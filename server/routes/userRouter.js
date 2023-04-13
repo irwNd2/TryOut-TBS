@@ -10,6 +10,7 @@ router.patch('/profile', authentication, UserController.updateUser);
 router.put('/profile', authentication, UserController.updateData);
 router.post(
   '/profile/photo',
+  authentication,
   upload.single('photo'),
   UserController.updatePhoto,
 );
