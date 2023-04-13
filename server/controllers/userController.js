@@ -32,10 +32,11 @@ class UserController {
       if (!email || !password) {
         throw { name: 'bad_request' };
       }
-      const user = await User.findOne({ where: { email } });
+      const user = await User.findOne({ where: { email }, include: UserData });
       if (!user) {
         throw { name: 'invalid_login' };
       }
+
       const isValid = comparePassword(password, user.password);
       if (!isValid) {
         throw { name: 'invalid_login' };
@@ -44,9 +45,12 @@ class UserController {
         id: user.id,
         email: user.email,
       });
-      res
-        .status(200)
-        .json({ access_token, email: user.email, name: user.fullName });
+      res.status(200).json({
+        access_token,
+        email: user.email,
+        name: user.fullName,
+        profile: user.UserDatum,
+      });
     } catch (err) {
       next(err);
     }
@@ -146,6 +150,25 @@ class UserController {
           { where: { UserId: id } },
         );
         res.status(200).json(newData);
+      }
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  static async updatePhoto(req, res, next) {
+    try {
+      const user = await UserData.findOne({ where: { UserId: req.user.id } });
+      if (!user) {
+        await UserData.create({
+          UserId: req.user.id,
+          imageUrl: req.file.location,
+        });
+      } else {
+        await UserData.update(
+          { imageUrl: req.file.location },
+          { where: { UserId: req.user.id } },
+        );
       }
     } catch (err) {
       next(err);

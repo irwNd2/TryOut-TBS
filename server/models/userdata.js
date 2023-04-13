@@ -43,6 +43,7 @@ module.exports = (sequelize, DataTypes) => {
           key: 'id',
         },
       },
+      imageUrl: DataTypes.STRING,
       createdAt: DataTypes.DATE,
       updatedAt: DataTypes.DATE,
     },
