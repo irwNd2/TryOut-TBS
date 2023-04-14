@@ -13,7 +13,6 @@ const authentication = (req, res, next) => {
       throw { name: 'invalid_token' };
     }
     req.user = payload;
-    console.log(payload);
     next();
   } catch (err) {
     next(err);

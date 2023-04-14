@@ -1,7 +1,7 @@
 const { User, UserData } = require('../models');
 const { comparePassword, hashPassword } = require('../helpers/bcrypt');
 const { generateToken } = require('../helpers/jwt');
-
+const s3 = require('../middlewares/upload');
 class UserController {
   static async register(req, res, next) {
     try {
@@ -157,22 +157,42 @@ class UserController {
   }
 
   static async updatePhoto(req, res, next) {
+    // try {
+    //   const user = await UserData.findOne({ where: { UserId: req.user.id } });
+    //   console.log(req.file);
+    //   if (!user) {
+    //     await UserData.create({
+    //       UserId: req.user.id,
+    //       imageUrl: req.file.location,
+    //     });
+    //   } else {
+    //     await UserData.update(
+    //       { imageUrl: req.file.location },
+    //       { where: { UserId: req.user.id } },
+    //     );
+    //   }
+    // } catch (err) {
+    //   next(err);
+    // }
+
     try {
-      const user = await UserData.findOne({ where: { UserId: req.user.id } });
-      console.log(req.file);
-      if (!user) {
-        await UserData.create({
-          UserId: req.user.id,
-          imageUrl: req.file.location,
-        });
-      } else {
-        await UserData.update(
-          { imageUrl: req.file.location },
-          { where: { UserId: req.user.id } },
-        );
-      }
-    } catch (err) {
-      next(err);
+      const file = req.file;
+      const params = {
+        Bucket: process.env.AWSBucket,
+        Key: file.originalname,
+        Body: file.buffer,
+      };
+
+      s3.upload(params, (err, data) => {
+        if (err) {
+          console.log(err);
+          throw { name: 'error upload' };
+        } else {
+          res.status(200).json({ url: data.Location });
+        }
+      });
+    } catch (error) {
+      next(error);
     }
   }
 }
